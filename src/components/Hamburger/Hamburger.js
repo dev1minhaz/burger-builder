@@ -10,7 +10,7 @@ function Hamburger(props) {
                 props.ingredients.length < 1 && <div style={{
                     textAlign: "center"
                 }}>
-                    Malzeme Ekleyin
+                    Add Material
                 </div>
             }
             {

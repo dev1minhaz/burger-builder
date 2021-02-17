@@ -15,11 +15,11 @@ function Item(props) {
             {
                 props.butonGoster ? <button className="Less" onClick={() => {
                     props.malzemeCikar(props);
-                }}>Cıkar</button> : <button className="Less disabled">Cıkar</button>
+                }}>Remove</button> : <button className="Less disabled">Remove</button>
             }
             <button className="more" onClick={() => {
                 props.malzemeEkle(props);
-            }}>Ekle</button>
+            }}>Add</button>
         </div>
     );
 }

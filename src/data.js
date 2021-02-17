@@ -4,25 +4,25 @@
 const ingrediends = [
     {
         id: 1,
-        name: "Marul",
+        name: "Vegitable",
         color: "green",
         price: 1
     },
     {
         id: 2,
-        name: "Peynir",
+        name: "Cheese",
         color: "#ffa600",
         price: 4
     },
     {
         id: 3,
-        name: "Kofte",
+        name: "Meat",
         color: "black",
         price: 6
     },
     {
         id: 4,
-        name: "Domates",
+        name: "Tomato",
         color: "red",
         price: 2
     }
